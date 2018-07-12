@@ -8,8 +8,8 @@
         "newFeature": true
     },
     "compileType": "miniprogram",
-    "appid": "touristappid",
-    "projectname": "github-tua-mp-webpack-vue",
+    "appid": "{{ appid }}",
+    "projectname": "{{ name }}",
     "condition": {
         "search": {
             "current": -1,

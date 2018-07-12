@@ -1,6 +1,7 @@
 module.exports = {
     extends: 'standard',
     parser: 'babel-eslint',
+    plugins: ['html'],
     rules: {
         'indent': [2, 4],
         'promise/param-names': 0,
