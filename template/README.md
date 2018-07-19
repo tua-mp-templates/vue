@@ -29,6 +29,8 @@ npm start
 npm run build
 ```
 
+注意：使用开发者工具打开的是【根目录】
+
 ## 文件结构
 
 * index.wxml/index.less/index.json -> Index.vue
