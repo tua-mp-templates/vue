@@ -1,7 +1,20 @@
 module.exports = {
-    extends: 'standard',
-    parser: 'babel-eslint',
-    plugins: ['html'],
+    env: {
+        node: true,
+        browser: true,
+    },
+    extends: [
+        'standard',
+        'plugin:vue/essential',
+    ],
+    parserOptions: {
+        parser: 'babel-eslint',
+        sourceType: 'module',
+        ecmaFeatures: {
+            legacyDecorators: true
+        },
+    },
+    plugins: ['vue'],
     rules: {
         'indent': [2, 4],
         'promise/param-names': 0,
